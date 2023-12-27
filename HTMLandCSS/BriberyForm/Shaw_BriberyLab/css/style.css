@@ -1,0 +1,38 @@
+/* Set the background color for the html to darkslategrey */
+html{
+    background-color: darkslategrey;
+}
+/* Every div should have a 5 pixel solid border colord dark goldenrod, a margin of 20 pixels,
+   and a background color of antiquewhite
+ */
+div{
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkgoldenrod;
+    margin: 20px;
+    background-color: antiquewhite;
+}
+/* The form element should be styled to have a 25 pixel margin.
+ */
+form{
+    margin: 25px;
+}
+
+/*The direct dependent hr in form should have a color of darkslategrey */
+form>hr{
+    color: darkslategrey;
+}
+/*Create a class called .centerText that centers any text to which it is applied. */
+.centerText{
+    text-align: center;
+}
+/* For the input type=submit, set the margin to auto, padding to 5 pixels on the top
+and 15pixels on the right.  Set the display to inline-block;
+ */
+input[type=submit] {
+    margin: auto;
+    padding-top: 5px;
+    padding-right: 15px;
+    display: inline-block;
+
+}

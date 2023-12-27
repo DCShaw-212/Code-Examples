@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Buy Your Grades</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/main.js" defer ></script>
+
+    <!-- For whatever reason I cannot find the file from below. It seems maybe it was misnamed -->
+    <!-- <script src="../js/processform.js" defer=""></script> -->
+
+</head>
+<body>
+<div>
+    <!-- 1. Create a form tag with an action that goes to FormInfoDisplay.html -->
+    <form action = "ReceiptInfo.html" method="get">
+        <!-- 2.Use the class centerText to center the h2 element below -->
+        <h2 class = centerText>Buy Your Way to a Better Education</h2>
+        <p>With Integration on the horizon, recent changes to Clarion University policies allow us
+            to offer grades for cash! All you need now to get an A in this class is cold, hard, cash.
+            Note, this is for educational purposes only. Clarion does not actually accept cash for grades.</p>
+        <!-- 3. Add a horizontal rule line here.  Note, it's just <hr>-->
+        <hr>
+        <!--4.Convert the <p> First Name to a label for the input with name fname -->
+        <label for ="fname">First name</label><br>
+        <!--5. Create an input of type text with id=fname, name=fname, value=John -->
+        <input type="text" id ="fname" name = "fname" value="john">
+        <br><br>
+        <!--6. Convert the <p> Last Name to a label for the input with name lname -->
+        <label for = "lname">Last name</label><br>
+        <!--7. Create an input of type text with id -lname, name=fname, value=Doe -->
+        <input type = "text" id = "lname" name = "lname" value = "Doe">
+        <br><br>
+        <!--8. Convert the <p> Visa to a label for the input with name amount -->
+        <label for = "amount">Enter Amount</label><br>
+        <!--9. Create an input of type=number with id=amount, name=amount, value=
+            Enter Amount -->
+        <input type = "text" id = "amount" name = "amount" value = "Enter Amount">
+        <br><br>
+        <!--11. Convert the <p> Credit Card to a label for the input with name creditCard -->
+        <label for = "creditCard"> Credit Card </label><br>
+        <!--12. Create an input of type text with id=creditCard, name=creditCard, value=
+         Credit Card Number -->
+        <input  type = "text" id = "creditCard" name = "creditCard" value = "Credit Card Number">
+        <br>
+        <!-- Note, in order for radio buttons to be exclusive, the name attribtue must
+        be the same for all of them -->
+        <!--13. Create an input of type radio with id=creditCardVisa, name=card,
+            value=Visa. Also add the checked attribute. Just write the word checked. -->
+        <input type = "radio" id = "creditCardVisa" name = "card" value = "Visa" checked>
+        <!--14. Convert the <p> Visa to a label for the input with name creditCardVisa -->
+        <label for = "creditCardVisa">Visa </label>
+        <!--15. Create an input of type radio with id=creditCardMasterCard,
+            name=card, value=MasterCard  -->
+        <input type = "radio" id = "credCardMasterCard" name = "card" value = "MasterCard">
+        <!--16. Convert the <p> Master Card to a label for the input with name creditCardMasterCard -->
+        <Label for = "credCardMasterCard">Master Card</Label>
+        <!--17. Create an input of type radio with id=creditCardDiscover,
+            name=card, value=Discover.  -->
+        <input type = "radio" id = "creditCardDiscover" name = "card" value = "Discover">
+        <!--18. Convert the <p> Discover Card to a label for the input with name creditCardDiscover -->
+        <label for = "creditCardDiscover">Discover Card</label>
+        <br><br>
+        <!-- 19.Create an input of type=submit with id=btnSubmit,
+            value=Submit to Indicate You Are a Giant Sucker  -->
+        <input type = "submit" id = "btnSubmit" value = "Submit to Indicate You Are a Giant Sucker">
+    </form>
+    <p class="centerText"> A 15% processing fee will be added to the amount entered in the bribe.</p>
+    <!-- 20.Assign the paragraph to the centerText class -->
+    <p class = "centerText">If you click the "Submit" button, the form-data will be sent to a second HTML page.</p>
+</div>
+</body>
+</html>
