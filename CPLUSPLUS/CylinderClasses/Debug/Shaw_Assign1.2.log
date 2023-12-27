@@ -1,0 +1,16 @@
+﻿  Source.cpp
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign1.2\cylindertemplate.h(58,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign1.2\cylindertemplate.h(129): message : see reference to class template instantiation 'CylinderTemplate<DataType>' being compiled
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign1.2\cylindertemplate.h(58,1): warning C4183: 'Cylinder': missing return type; assumed to be a member function returning 'int'
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign1.2\cylindertemplate.h(61,1): error C2590: 'Cylinder': only a constructor can have a base/member initializer list
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign1.2\cylindertemplate.h(64,11): error C7539: 'CylinderTemplate': a class with user-declared constructors cannot have a member with the same name as the class
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign1.2\cylindertemplate.h(122,18): error C2143: syntax error: missing ';' before '=='
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign1.2\cylindertemplate.h(123,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign1.2\cylindertemplate.h(61,43): error C3861: 'radius': identifier not found
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign1.2\cylindertemplate.h(61,58): error C3861: 'height': identifier not found
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign1.2\cylindertemplate.h(129,1): error C3867: 'Circle::getRadius': non-standard syntax; use '&' to create a pointer to member
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign1.2\cylindertemplate.h(129,1): error C2296: '*': illegal, left operand has type 'double (__thiscall Circle::* )(void)'
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign1.2\Source.cpp(12,27): error C2512: 'CylinderTemplate<std::string>': no appropriate default constructor available
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign1.2\Source.cpp(12,2): message : see declaration of 'CylinderTemplate<std::string>'
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign1.2\Source.cpp(47,15): error C2676: binary '==': 'CylinderTemplate<std::string>' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign1.2\Source.cpp(58,15): error C2676: binary '==': 'CylinderTemplate<std::string>' does not define this operator or a conversion to a type acceptable to the predefined operator
