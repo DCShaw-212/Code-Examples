@@ -1,0 +1,27 @@
+﻿  Assignment4_Driver.cpp
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign4\queue.h(13,12): error C2143: syntax error: missing ';' before '<'
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign4\queue.h(14): message : see reference to class template instantiation 'Node<DataType>' being compiled
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign4\queue.h(13,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign4\queue.h(13,1): error C2238: unexpected token(s) preceding ';'
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign4\queue.h(26,12): error C2143: syntax error: missing ';' before '<'
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign4\queue.h(101): message : see reference to class template instantiation 'Queue<DataType>' being compiled
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign4\queue.h(26,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign4\queue.h(26,1): error C2238: unexpected token(s) preceding ';'
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign4\queue.h(27,8): error C2059: syntax error: '='
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign4\queue.h(27,1): error C2238: unexpected token(s) preceding ';'
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign4\queue.h(29,12): error C2143: syntax error: missing ';' before '<'
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign4\queue.h(29,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign4\queue.h(29,1): error C2238: unexpected token(s) preceding ';'
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign4\queue.h(30,7): error C2059: syntax error: '='
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign4\queue.h(30,1): error C2238: unexpected token(s) preceding ';'
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign4\queue.h(45,9): error C2065: 'front': undeclared identifier
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign4\queue.h(45,9): error C3861: 'front': identifier not found
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign4\queue.h(54,7): error C2065: 'front': undeclared identifier
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign4\queue.h(54,7): error C3861: 'front': identifier not found
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign4\queue.h(58,14): error C3861: 'front': identifier not found
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign4\queue.h(66,8): error C2760: syntax error: unexpected token '&', expected 'type specifier'
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign4\queue.h(72,7): error C2065: 'front': undeclared identifier
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign4\queue.h(72,7): error C3861: 'front': identifier not found
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign4\queue.h(76,4): error C3861: 'front': identifier not found
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign4\queue.h(76,18): error C3861: 'front': identifier not found
+C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign4\queue.h(89,30): error C2760: syntax error: unexpected token 'identifier', expected ';'
