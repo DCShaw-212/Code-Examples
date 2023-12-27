@@ -1,0 +1,53 @@
+
+html
+{
+ background-color: #55ACEE;
+}
+
+
+
+/*Border for the advertisement */
+.flyerBorder
+{
+    border-color: purple;
+    border-style: solid;
+    border-width: 5px;
+    background-color: mintcream;
+}
+
+
+
+
+/* This is for the main title of the ad */
+.pageHead
+{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 2px;
+    font-family: Century;
+    font-size: large;
+}
+
+/* This is for the theme of the ad/event */
+.theme
+{
+    font-style: italic;
+    text-align: center;
+    color: darkslategrey;
+    margin-top: 0px;
+}
+
+/*This is for the little titles */
+.littleHead
+{
+    text-decoration: underline;
+    margin-bottom: 2px;
+    font-family: Century;
+    font-size: medium;
+}
+
+
+/*This is for the listed things */
+.list{
+    list-style: disc;
+}

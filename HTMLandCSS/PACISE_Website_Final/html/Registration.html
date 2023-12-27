@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>PACISE 2022</title>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width"/>
+    <!--import the style sheet -->
+
+    <link rel="stylesheet" href = "../css/style.css">
+    <!-- import style sheet for the social media icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- import the registration style sheet -->
+    <link rel = "stylesheet" href = "../css/registrationStyle.css">
+
+    <!-- import the Reg.js -->
+    <script src = "../js/Reg.js" defer ></script>
+</head>
+
+<body>
+
+
+<!-- Banner -->
+<div class = "banner">
+    <h2 class = "title">PACISE 2022</h2>
+</div>
+
+<!-- Navigation Bar -->
+<nav class = "navBar">
+
+    <!--link to home -->
+    <a href = "index.html" class = link>Home</a>
+
+    <!-- Link to Conference Schedule -->
+    -<a href="schedule.html" class = "link">Conference Schedule</a>
+
+    <!-- Link to Directions Page -->
+    <a href="directions.html" class = link>Directions</a>
+
+    <!-- Link to the articles page -->
+    <a href = "papers.html" class = link>Papers/Presentations</a>
+
+    <!-- Link to the contact page -->
+    <a href = "Contact.html" class = link>Contact</a>
+
+    <!--Link to the Registration Page -->
+    <a href = "Registration.html" class = "link">Register</a>
+
+    <!-- Link to the contests page -->
+    <a href = "Contests.html" class = link>Contests</a>
+
+    <!-- Link to the Advertisement page -->
+    <a href = "advertisement.html" class = "link">Advertisement</a>
+
+    <!-- Link to the Reflection page -->
+    <a href = "reflection.html" class = "link">Reflection</a>
+
+    <!-- Link to page Clarion University website-->
+    <a target = "_blank" href="https://www.clarion.edu" class = "link">Clarion University Website</a>
+</nav>
+
+<!-- Registration forms will go here -->
+
+<form method="get" action="registeredReceipt.html">
+
+<div class = "sweetborder">
+    <h2 class = "bigHead">Registration</h2>
+
+<div class = "compartment">
+    <h3>Name and Address:</h3>
+</div>
+
+<!-- Where the names are entered -->
+<div>
+    <label for = "fname">First Name:</label>
+    <input type = text  class = inputNames name = "fname" id = fname>
+    <br>
+    <label for = "lname">Last Name:</label>
+    <input type = "text" name = "lname" class = inputNames id = lname>
+</div>
+
+<!-- Where the house number and street name are entered -->
+<div>
+    <label for = "address1">Address Line 1:</label>
+    <input type = "text" name = "address1"class = longerInput id = address1>
+    <br>
+    <label for ="address2">Address Line 2:</label>
+    <input type = "text" name = "address2" class = longerInput id = address2>
+</div>
+
+<!-- Where the City, State and Zip Code are entered -->
+<div>
+    <label for = "city" name = "city">City:</label>
+    <input type = "text" Class = inputNames id = city>
+    <br>
+    <label for = "state" name="state">State:</label>
+    <input type = "text" Class = inputNames id = state>
+    <br>
+    <label for = "zipCode">Zip Code:</label>
+    <input type = "text" Class = inputNames id = zipCode>
+</div>
+
+<br>
+
+<!-- Where the email and phone number are entered -->
+<div class = "compartment">
+    <h3>Email and Phone: </h3>
+ </div>
+
+<div>
+    <label for = "email">Email:</label>
+    <input type = text class = longerInput id = email name = "email">
+    <br>
+    <label for = "phone">Phone:</label>
+    <input type = text class = longerInput id = phone name = "phone">
+</div>
+
+<br><br>
+
+<!-- This will be the status section of the registration -->
+<div>
+    <h3 class = "compartment">Status (Check Only One)</h3>
+</div>
+<div>
+<table class = sweetborder>
+    <tr>
+
+            <td>
+                 <h4 class = statusTable>Status</h4>
+          </td>
+        <td>
+
+        </td>
+
+            <td>
+        <h4 class = statusTable>Registration Fee</h4>
+            </td>
+
+    </tr>
+    <tr>
+
+            <td>
+                <label for = "twoDayFP">2 Day Faculty/Professional</label>
+                <input type = radio id = "twoDayFP" class = statusTable name = "s">
+            </td>
+            <td>
+                <p class = statusTable>$60</p>
+            </td>
+
+    </tr>
+    <tr>
+        <td>
+            <label for = "oneDayFP">1 Day Faculty/Professional</label>
+            <input type = radio id = "oneDayFP" class = statusTable name = "s">
+        </td>
+        <td>
+            <p class = statusTable>$30</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for = "student">Student</label>
+            <input type = radio id = "student" class = statusTable name = s>
+        </td>
+        <td>
+            <p class = statusTable>$20</p>
+        </td>
+
+    </tr>
+    <tr>
+        <td>
+            <label for = "sp">Spouse/Guest</label>
+            <input type = radio id = "sp" class = statusTable name = s>
+        </td>
+        <td>
+            <p class="statusTable">$20</p>
+        </td>
+
+    </tr>
+</table>
+</div>
+
+<br><br>
+
+<!-- Participation Selection will go here -->
+<div>
+    <h3 class = "compartment">Please select which of the follow you are participating in</h3>
+    <h3>(You may choose more than one.)</h3>
+</div>
+
+<table class="sweetborder">
+    <tr>
+        <td>
+            <input type = "checkbox" id = programmingContest name = pt>
+            <label for ="programmingContest">Programming Contest</label>
+
+        </td>
+
+    </tr>
+    <tr>
+        <td>
+            <input type = "checkbox" id = poster name = "pt">
+            <label for = "poster">Presenting a poster</label>
+        </td>
+
+    </tr>
+    <tr>
+        <td>
+            <input type = "checkbox" id = birds name = "pt">
+            <label for = "birds">Birds of a feather</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type = "checkbox" id = speaker name = "pt">
+            <label for = "speaker">Speaker</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type = "checkbox" id = attendee name = "pt">
+            <label for = "attendee">Attendee Only</label>
+        </td>
+    </tr>
+</table>
+
+
+<!-- Submit button goes here -->
+
+<input type = "submit" id = btnSubmit value = "Register" class = btnSubmit>
+</div>
+</form>
+
+
+
+    <br><br><br><br>
+
+
+</div>
+</body>
+
+<!--Footer for the page -->
+
+<footer>
+    <div class = "footer">
+        <!-- Jpg logo for clarion university -->
+        <img class = "universityFooter" src = "../.idea/Pictures/clarion.jpg" alt="Pennsylvania Computer Information Science Educators Technology Empowerment Bridging the Gap Clarion University"/>
+    </div>
+
+    <div>
+        <p>&copy Clarion University of Pennsylvania</p>
+        <p>GPS Address: 909 E Wood St. Clarion, PA 16214</p>
+        <p>Mailing Address: 840 Wood St. Clarion, PA 16214</p>
+
+    </div>
+
+    <div>
+        <p class = "fa">Connect with Us</p>
+        <!--Social Media Icons -->
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+    </div>
+</footer>
+
+</html>

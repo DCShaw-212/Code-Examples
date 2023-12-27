@@ -1,0 +1,56 @@
+/*This is for the main title of the registration page */
+.bigHead{
+    text-align: center;
+    text-decoration: underline;
+}
+
+/*This is for the input group titles */
+.compartment
+{
+    text-style: bold;
+    color: darkblue;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    margin-top: 25px;
+}
+
+/*This is for the shorter text inputs */
+.inputNames
+{
+    width: 200px;
+    margin-bottom: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: gold;
+}
+
+/*This is for the longer text inputs */
+.longerInput
+{
+    width: 500px;
+    margin-bottom: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: gold;
+}
+
+/*This is for the checkbox and radio button tables selection inputs */
+.statusTable
+{
+    margin: 10px;
+    border-style: solid;
+    border-color: gold;
+    font-weight: bold;
+}
+
+/*Um.... The button */
+.btnSubmit
+{
+    margin-top: 50px;
+    width: 100px;
+    background-color: chocolate;
+    color: white;
+    border-style: dotted;
+    border-color: gold;
+}
+
