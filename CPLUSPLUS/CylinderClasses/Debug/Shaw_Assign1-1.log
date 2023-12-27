@@ -1,9 +1,0 @@
-﻿  Shaw_Assign1-1.cpp
-C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign1-1\cylinder.h(54,9): error C2535: 'double Cylinder::getRadius(void)': member function already defined or declared
-C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign1-1\cylinder.h(33): message : see declaration of 'Cylinder::getRadius'
-C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign1-1\cylinder.h(59,7): error C2535: 'void Cylinder::setRadius(double)': member function already defined or declared
-C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign1-1\cylinder.h(36): message : see declaration of 'Cylinder::setRadius'
-C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign1-1\cylinder.h(65,9): error C2535: 'double Cylinder::getHeight(void)': member function already defined or declared
-C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign1-1\cylinder.h(39): message : see declaration of 'Cylinder::getHeight'
-C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign1-1\cylinder.h(71,7): error C2535: 'void Cylinder::setHeight(double)': member function already defined or declared
-C:\Users\Dustin\OneDrive\Desktop\CIS254\Shaw_Assign1-1\cylinder.h(42): message : see declaration of 'Cylinder::setHeight'
