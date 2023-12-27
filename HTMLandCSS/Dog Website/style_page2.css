@@ -1,0 +1,22 @@
+
+body{
+    background-color: bisque;
+}
+
+
+
+h1{
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+
+
+
+h3{
+    text-decoration: underline;
+    text-align: left;
+}
+a{text-align: right;
+}
