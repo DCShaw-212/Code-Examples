@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>$Title$</title>
+        <link rel = "stylesheet" href = "StyleSheet.css">
+    </head>
+
+    <body>
+            <!-- 22. Matching ::selection selects the portion of an element that is selected by a user -->
+            <h1>Warning: Do not click the text. Links only please. You'll make them angry.</h1>
+            <div>
+                <!-- 1. Matching a:active selects the active link (when clicked)-->
+                <a href = "Index2.html">Click me to see me change color using active link and font family using hover. As a reward you'll go to an awesome page.</a>
+                <br>
+            </div>
+
+            <!-- 2. Matching [target="_blank" Selects all elements with target="_blank" -->
+            <a target="_blank" href = "Index2.html">I am a much cooler link because I open in a new tab using target ="blank" and I'm underlined.</a>
+
+
+            <!-- 3. Matching div p styling all p elements that are placed immediately after <div> elements -->
+            <div>
+            <!-- 8. Matching selects every <p> element that is the first <p> element of its parent -->
+                <p>I'm modified by the first-of-type selector.</p>
+
+                <p>Hi, I'm a paragraph, I'm really big, I'm also italic  and my parent is a div. </p>
+
+                <br>
+
+                <p>I'm not italic.</p>
+
+            </div>
+
+            <!-- 4. Matching p selects all p elements -->
+            <p>
+                I'm just a regular paragraph, and I have no parents :(
+                <br>
+                A list of things I'm good at:
+            </p>
+
+            <ul>
+                    <li>Pretending to be Bruce Wayne.</li>
+                    <li>Grappling Hooks.</li>
+                    <li>Catching the Joker</li>
+            </ul>
+
+            <div>
+                    <p>
+                        I'm an only child paragraph. I am Batman. /|\( ;,;)/|\
+                    </p>
+            </div>
+
+            <!-- 19. Matching input:focus selects the input element which has focus -->
+            <label>Input Disabled. Guess Batman's Password:</label>
+
+            <!-- 9. Matching input:disabled selects every disabled input element -->
+            <input type="text"  required minlength="4" maxlength="8" size="10" disabled>
+
+            <p>There's no backend for this page. Thanks for playing.</p>
+
+
+            <label for="name">Input Enabled. Guess Joker's Password:</label>
+
+            <!-- 10. Matching input:enabled selects every enabled input element -->
+            <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10" enabled>
+
+            <p>Did you try?</p>
+            <!-- 6. Matching input:checked selects every checked input element -->
+            <div>
+                <label>Yes?</label> <input type = "checkbox">
+            </div>
+
+            <p> Why would you fall for that?</p>
+
+            <!-- 5. Multiple Choice selects all elements with the class intro -->
+            <p class = "intro">I'm a paragraph of a special class called intro. Ironically I'm at the end. </p>
+
+            <!-- 20. Matching [title~=flower] selects all elements with a title attribute -->
+
+            <h1 title="flower">@)-'-- The title of this art is Flower.</h1>
+
+            <!-- 18. Multiple Choice [langl=en] selects all elements with a lang attribute value starting with "en"-->
+            <div>
+                <p lang="en">wHy So SeRiOuS? <@;^)</p>
+            </div>
+
+            <p id="firstname">My first name is Jack. Arthur was my inspiration. Randomly themed coding examples with hidden meanings are fun.</p>
+
+            <div>
+
+            <div>
+                <!-- 13. Multiple Choice a[src="w3schools"] selects every <a> element whose src attribute value contains the substring "w3schools"-->
+                <a src = "w3schools" href= "https://www.w3schools.com/" target = "_blank">w3schools</a>
+            </div>
+
+            <br>
+
+            <div>
+                <!-- 14. Multiple Choice a[src^="https"] selects every <a> element whose source attribute value beings with "https" -->
+                <a src = "https" href = "https://www.clarion.edu/" target = "_blank">Clarion University</a>
+            </div>
+
+            <br>
+
+            <div>
+                <!-- 15. Multiple Choice a[src$ = "pdf"] selects every <p> element whose src attribute ends with ".pdf" -->
+                <a scr$ = "pdf" href = "http://www.africau.edu/images/default/sample.pdf">This is a sample pdf for demonstrative purpose only. Do not under any circumstanes:</a>
+                <ul>
+                    <li>Expose it to sunlight.</li>
+                    <li>Let water get on it.</li>
+                    <li>Feed water after midnight.</li>
+                </ul>
+            </div>
+
+            <!-- 16. Matching :root -> selects the document's element -->
+            <root>
+                    <h4>I am the one true intro.</h4>
+            </root>
+    </body>
+
+</html>
