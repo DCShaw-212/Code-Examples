@@ -1,0 +1,10 @@
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment1\bin\Debug\DustinShaw_Assignment1.exe.config
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment1\bin\Debug\DustinShaw_Assignment1.exe
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment1\bin\Debug\DustinShaw_Assignment1.pdb
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment1\obj\Debug\DustinShaw_Assignment1.csproj.AssemblyReference.cache
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment1\obj\Debug\DustinShaw_Assignment1.frmCalculateGrade.resources
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment1\obj\Debug\DustinShaw_Assignment1.Properties.Resources.resources
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment1\obj\Debug\DustinShaw_Assignment1.csproj.GenerateResource.cache
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment1\obj\Debug\DustinShaw_Assignment1.csproj.CoreCompileInputs.cache
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment1\obj\Debug\DustinShaw_Assignment1.exe
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment1\obj\Debug\DustinShaw_Assignment1.pdb
