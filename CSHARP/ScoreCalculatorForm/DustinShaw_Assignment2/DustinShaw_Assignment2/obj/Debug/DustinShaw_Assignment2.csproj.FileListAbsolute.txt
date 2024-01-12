@@ -1,0 +1,10 @@
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment2\DustinShaw_Assignment2\bin\Debug\DustinShaw_Assignment2.exe.config
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment2\DustinShaw_Assignment2\bin\Debug\DustinShaw_Assignment2.exe
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment2\DustinShaw_Assignment2\bin\Debug\DustinShaw_Assignment2.pdb
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment2\DustinShaw_Assignment2\obj\Debug\DustinShaw_Assignment2.csproj.AssemblyReference.cache
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment2\DustinShaw_Assignment2\obj\Debug\DustinShaw_Assignment2.Form1.resources
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment2\DustinShaw_Assignment2\obj\Debug\DustinShaw_Assignment2.Properties.Resources.resources
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment2\DustinShaw_Assignment2\obj\Debug\DustinShaw_Assignment2.csproj.GenerateResource.cache
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment2\DustinShaw_Assignment2\obj\Debug\DustinShaw_Assignment2.csproj.CoreCompileInputs.cache
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment2\DustinShaw_Assignment2\obj\Debug\DustinShaw_Assignment2.exe
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment2\DustinShaw_Assignment2\obj\Debug\DustinShaw_Assignment2.pdb
