@@ -1,0 +1,156 @@
+﻿/*
+  CIS 270 Lab 1
+   
+   Bike the Mountains Tour Style Sheet
+   Author: Dustin Shaw
+   Date:   10/02/2021
+   
+   Filename: mw_styles.css
+
+*/
+
+/*charset rule to set the encoding for the style sheet*/
+@charset "UTF-8";
+
+
+/* Structural Styles */
+/*changes the background color of the browser window*/
+html{
+    background-color: rgb(173, 189, 227);
+}
+
+/*changes the background color of the body and sets the overall font family.*/
+body{
+    background-color: rgb(227,210,173);
+    font-family: "Century Gothic";
+
+}
+
+/*For editing the footer of the page*/
+
+.site-footer{
+    background-color: rgb(208, 184, 109);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*Adjusts the font of the address*/
+.address-style{
+    font-size: 0.9em;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* Heading Styles */
+/*set the font weight for the headers*/
+
+h1, h2 {
+    font-weight: normal;
+}
+
+
+/* Navigation Styles */
+ nav > ul{
+    list-style-type: none;
+    line-height: 2em;
+    font-size: 0.9em;
+
+}
+
+ /*removes underlines from the hyperlinks and changes the color*/
+a:link
+{
+    text-decoration: none;
+    color:rgb(43,59,125);
+}
+
+a:hover{
+    background-color:rgb(212,35,35);
+}
+
+
+
+/* Article Styles */
+
+/*These next two lines will modify the header and the paragraph text of the tour summary*/
+
+article#tour_summary > h1
+{
+    font-size: 2.2em;
+    letter-spacing: 0.2em;
+}
+
+article#tour_summary > p
+{
+    font-size: 1.1em;
+}
+
+/*modifies the first line of the tour summary*/
+article#tour_summary > p:first-of-type::first-line
+{
+    font-variant: small-caps;
+    font-size: 1.2em;
+}
+
+
+
+/* Aside Styles */
+/*These lines modify the itinerary of the tours*/
+
+/*Font sizes for the Iteinerary*/
+aside#tour_itinerary > h1
+{
+    font-size: 1.2em;
+}
+aside#tour_itinerary > h2
+{
+    font-size: 0.9em;
+}
+
+aside#tour_itinerary > p
+{
+    font-size: 0.8em;
+}
+
+/*Changes the colors of the font for every other day*/
+aside#tour_itinerary > h2:nth-of-type(odd)
+{
+    color: rgb(79,91,40);
+}
+
+aside#tour_itinerary > p:nth-of-type(odd)
+{
+    color: rgb(79,91,40);
+}
+
+aside#tour_itinerary > h2:nth-of-type(even)
+{
+    color: rgb(81, 95, 175);
+}
+
+aside#tour_itinerary > p:nth-of-type(even)
+{
+    color: rgb(81, 95, 175);
+}
+
+
+/* Blockquote Styles */
+
+/*styles the colors, opacity and padding for the blockquote*/
+
+ blockquote
+ {
+     background-color: rgb(173,189,227);
+     color: rgb(255,255,255);
+     opacity: 0.65;
+ }
+
+ blockquote > p
+ {
+     padding-top: 2.5px;
+     padding-bottom: 2.5px;
+     padding-left: 10px;
+     padding-right: 10px;
+ }
