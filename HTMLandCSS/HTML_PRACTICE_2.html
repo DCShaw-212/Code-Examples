@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>$Title$</title>
+  <link rel = "stylesheet", href = "StyleSheet.css">
+</head>
+
+<body>
+<!-- 1. Matching a:active selects the active link (when clicked)-->
+<a href = "Index.html">Just kidding. It's the same page. You can go back now.</a>
+<br>
+
+<br>
+</div>
+
+<!-- 3. Matching div p styling all p elements that are placed immediately after <div> elements -->
+<div>
+  <!-- 8. Matching selects every <p> element that is the first <p> element of its parent -->
+  <p>I'm modified by the first-of-type selector.</p>
+
+  <p>
+    Hi, I'm a paragraph, I'm really big, I'm also italic  and my parent is a div!
+  </p>
+  <br>
+  <p>I'm not italic.</p>
+</div>
+
+<!-- 4. Matching p selects all p elements -->
+<p>
+  I'm just a regular paragraph, and I have no parents :(
+  <br>
+  A list of things I'm good at:
+</p>
+
+<ul>
+  <li>Pretending to be Bruce Wayne.</li>
+  <li>Grappling Hooks.</li>
+  <li>Catching the Joker</li>
+</ul>
+
+<div>
+  <p>
+    I'm an only child paragraph. I am Batman. /|\( ;,;)/|\
+  </p>
+</div>
+
+<!-- 19. Matching input:focus selects the input element which has focus -->
+<label for="name">Guess Batman's Password:</label>
+
+<input type="text" id="name" name="name" required
+       minlength="4" maxlength="8" size="10">
+
+<!-- 5. Multiple Choice selects all elements with the class intro -->
+<p class = "intro">I'm a paragraph of a special class called intro. Ironically I'm at the end. </p>
+
+<!-- 20. Matching [title~=flower] selects all elements with a title attribute -->
+
+<h1 title="flower">@)-'-- The title of this art is Flower.</h1>
+
+<!-- 18. Multiple Choice [langl=en] selects all elements with a lang attribute value starting with "en"-->
+<div>
+  <p lang="en">wHy So SeRiOuS? <@;^)</p>
+</div>
+<!-- 16. Matching :root -> selects the document's element -->
+<root>
+  <h4>I am the one true intro.</h4>
+</root>
+</body>
+
+</html>
