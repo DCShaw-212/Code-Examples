@@ -1,0 +1,10 @@
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment3\DustinShaw_Assignment3\bin\Debug\DustinShaw_Assignment3.exe.config
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment3\DustinShaw_Assignment3\bin\Debug\DustinShaw_Assignment3.exe
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment3\DustinShaw_Assignment3\bin\Debug\DustinShaw_Assignment3.pdb
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment3\DustinShaw_Assignment3\obj\Debug\DustinShaw_Assignment3.csproj.AssemblyReference.cache
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment3\DustinShaw_Assignment3\obj\Debug\DustinShaw_Assignment3.frmSimpleCalculator.resources
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment3\DustinShaw_Assignment3\obj\Debug\DustinShaw_Assignment3.Properties.Resources.resources
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment3\DustinShaw_Assignment3\obj\Debug\DustinShaw_Assignment3.csproj.GenerateResource.cache
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment3\DustinShaw_Assignment3\obj\Debug\DustinShaw_Assignment3.csproj.CoreCompileInputs.cache
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment3\DustinShaw_Assignment3\obj\Debug\DustinShaw_Assignment3.exe
+C:\Users\Dustin\OneDrive\Desktop\CIS 330\DustinShaw_Assignment3\DustinShaw_Assignment3\obj\Debug\DustinShaw_Assignment3.pdb
