@@ -1,0 +1,193 @@
+
+/*------------------Matching--------------------*/
+
+/* 1. Matching a:active selects the active link (when clicked) */
+a:active{
+    color: white;
+}
+
+/* 2. Matching [target="_blank" Selects all elements with target="_blank" */
+[target="_blank"]{
+    text-decoration: underline;
+
+}
+
+/* 5. Matching V .intro selects all elements with the class intro*/
+.intro
+{
+    font-size: large;
+    color: chocolate;
+    font-family: Georgia;
+}
+
+/*6. Matching K input:checked selects every checked input element*/
+
+input:checked
+{
+    border-style: wave;
+    border-color: chocolate;
+    align-content: stretch;
+}
+
+
+/* 7. Matching A #firstname selects the element with id="firstname" */
+
+#firstname{
+    color: darkgreen;
+    background-color: purple;
+}
+
+
+/* 11. Matching a:link selects all unvisited links (not working)*/
+a:link
+{
+    color: darkred;
+    background-color: gold;
+}
+
+/* 12. Matching a:visited selects all visited links (not working) */
+a:visited
+{
+    color: purple;
+    background-color:mintcream;
+}
+
+/*13 Matching a:hover selects links on mouseover */
+a:hover
+{
+    font-family: "Bauhaus 93";
+    font-size: x-large;
+}
+
+/* 14. Matching :not(p) selects every element that is not a p element */
+
+:not(p)
+{
+    font-style: revert;
+    font-max-size: 25px;
+}
+
+/* 16. Matching :root selects the document's root element */
+:root
+{
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+/* 18. Matching O [langl=en] selects all elements with a lang attribute value starting with "en" */
+div ~[lang=en]
+{
+    color: darkgreen;
+    background-color: purple;
+    font-family: Jokerman;
+}
+
+/* 20. Matching [title~=flower] selects all elements with a title attribute containing the word "flower" */
+[title~="flower"]
+{
+    font-size: 2em;
+    color: green;
+}
+
+/* 22. Matching ::selection selects the portion of an element that is selected by a user */
+::selection
+{
+    color: darkgreen;
+
+}
+
+/*------------Multiple Choice--------------------------*/
+
+/* 3. Multiple choice div p selects all p elements after div */
+div p{
+    color: blue;
+    font-size: 45px;
+    font-weight: bold;
+    margin: auto;
+}
+
+/* 4. Multiple choice p selects all the p elements */
+p
+{
+    color: saddlebrown;
+    font-family: "Franklin Gothic Medium";
+    font-size: 25px;
+}
+
+/* 5 Multiple choice p:first-child selects every <p> elements that is the first child of its parent*/
+
+p:first-child
+{
+    font-style: italic;
+}
+
+/*6 Multiple Choice p:only-of-type selects every <p> element that is only <p> element of its parent*/
+
+p:only-of-type
+{
+    color: azure;
+    background-color: black;
+}
+
+/* 7. Multiple Choice p:before insert content before every <p> element */
+p:before
+{
+    text-decoration: underline;
+}
+
+/* 8. Multiple Choice p:first-of-type selects <p> element that is the first <p> */
+p:first-of-type
+{
+    font-weight: bold;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+div > a{
+    text-decoration: none;
+    font-weight: bold;
+    margin: 50px;
+    padding: 25px;
+}
+
+
+/* 13. Multiple Choice a[src="w3schools"] selects every <a> element whose src attribute value contains the substring "w3schools" */
+a[src = "w3schools"]
+{
+    text-decoration: underline;
+}
+
+/* 14. Multiple Choice a[src^="https"] selects every <a> element whose source attribute value beings with "https" */
+a[src ="https"]
+{
+    text-decoration: underline;
+}
+
+/* 15. Multiple Choice a[src$ = "pdf"] selects every <p> element whose src attribute ends with ".pdf" */
+a[src = "pdf"]
+{
+    text-decoration: underline;
+}
+
+/* 19. Multiple Choice p:empty selects every <p> element that has not children (including text nodes) */
+p:empty
+{
+    border-style: dot-dash;
+    border-color: cadetblue;
+    border-bottom-width: thick;
+}
+
+/* 20. Multiple Choice p~ul selects every <ul> element that is preceded by a p element */
+p~ul
+{
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/* 22. Multiple Choice p:first-letter selects the first letter of every <p> element) */
+p::first-letter
+{
+    font-family: cursive;
+    font-size: 25px;
+}
